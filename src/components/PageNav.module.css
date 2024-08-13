@@ -1,0 +1,13 @@
+.nav {
+  background-color: #cc8181;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav :global(.active) {
+  color: #fff;
+}
