@@ -1,11 +1,17 @@
-import React from 'react'
-import Sidebar from './Sidebar'
-import Map from './Map'
+import { NavLink } from 'react-router-dom'
+import styles from './AppNav.module.css'
 
 export default function AppNav() {
   return (
-    <nav>
-  
+    <nav className={styles.nav}>
+      <ul>
+        <li>
+          <NavLink to='cities'>Cities</NavLink>
+        </li>
+        <li>
+          <NavLink to='countries'>Countries</NavLink>
+        </li>
+      </ul>
     </nav>
   )
 }
