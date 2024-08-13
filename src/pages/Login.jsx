@@ -1,12 +1,16 @@
 import styles from "./Login.module.css";
+import PageNav from "../components/PageNav";
+import { useState } from "react";
 
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
   const [email, setEmail] = useState("jack@example.com");
   const [password, setPassword] = useState("qwerty");
+  console.log('hey')
 
   return (
     <main className={styles.login}>
+      <PageNav />
       <form className={styles.form}>
         <div className={styles.row}>
           <label htmlFor="email">Email address</label>
