@@ -7,6 +7,7 @@ import AppLayout from "./pages/AppLayout"
 import Login from "./pages/Login"
 import CityList from "./components/CityList"
 import { useState, useEffect } from "react"
+import CountryList from "./components/CountryList"
 
 function App() {
   const [cities, setCities] = useState([])
@@ -20,6 +21,7 @@ function App() {
         setLoading(true)
         const response = await fetch(`${URL}/cities`)
         const data = await response.json()
+        console.log(data)
         setCities(data)
         setLoading(false)
       } catch (error) {
@@ -44,7 +46,7 @@ function App() {
         <Route path="app" element={<AppLayout />}>
           <Route index element={<CityList cities={cities} loading={loading}/>} />
           <Route path="cities" element={<CityList cities={cities} loading={loading} />} />
-          <Route path="countries" element={<p>Map of Countries</p>} />
+          <Route path="countries" element={<CountryList cities={cities} loading={loading} />} />
           <Route path="form" element={<p>Form</p>} />
         </Route>
         <Route path="*" element={<PageNotFound />} />
