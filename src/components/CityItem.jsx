@@ -13,7 +13,8 @@ export default function CityItem({ city }) {
   const {cityName, emoji, date, id} = city
   return (
     <li>
-      <Link to={`${id}`}  className={styles.cityItem}>
+      <Link to={`${id}`} className={styles.cityItem}>
+        <Link ></Link>
       <span className={styles.emoji}>{emoji}</span>
       <h3 className={styles.name}>{cityName}</h3>
       <time className={styles.date}>{formatDate(date)}</time>
