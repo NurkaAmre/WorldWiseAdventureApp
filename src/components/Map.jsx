@@ -52,8 +52,8 @@ function ChangeCenter({position}) {
 
 function DetectClick() {
   const navigate = useNavigate()
-  const map = useMapEvent({
-    click: e => navigate(`form`)
+ useMapEvent({
+    click: e => navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`)
   })
 }
 
