@@ -56,8 +56,7 @@ function CitiesProvider({ children }) {
           body: JSON.stringify(newCity)
         })
         const data = await response.json()
-        console.log(data)
-        // setCities([...cities, data])
+        setCities([...cities, data])
 
       } catch (error) {
         console.error("Error fetching data", error)
