@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
       "cityName": "Madrid",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -49,18 +37,6 @@
       }
     },
     {
-      "id": "d7df",
-      "cityName": "Buga",
-      "country": "Mongolia",
-      "emoji": "🇲🇳",
-      "date": "2024-08-24T14:41:56.205Z",
-      "notes": "",
-      "position": {
-        "lat": "48.93753936100759",
-        "lng": "89.98901367187501"
-      }
-    },
-    {
       "id": "5625",
       "cityName": "Buga",
       "country": "Mongolia",
@@ -73,102 +49,6 @@
       }
     },
     {
-      "id": "1b9a",
-      "cityName": "Mequinensa / Mequinenza",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-08-31T10:26:26.000Z",
-      "notes": "",
-      "position": {
-        "lat": "41.279066940803645",
-        "lng": "0.10754459406762341"
-      }
-    },
-    {
-      "id": "13c2",
-      "cityName": "Samper de Calanda",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-08-27T10:35:44.001Z",
-      "notes": "ok",
-      "position": {
-        "lat": "41.147262279670194",
-        "lng": "-0.2654108903867925"
-      }
-    },
-    {
-      "id": "a0e9",
-      "cityName": "Faudoas",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2024-08-27T10:40:21.628Z",
-      "notes": "sq",
-      "position": {
-        "lat": "43.83496272632569",
-        "lng": "0.9634016544829072"
-      }
-    },
-    {
-      "id": "9546",
-      "cityName": "Faudoas",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2024-08-27T10:40:21.628Z",
-      "notes": "sq",
-      "position": {
-        "lat": "43.83496272632569",
-        "lng": "0.9634016544829072"
-      }
-    },
-    {
-      "id": "1ef8",
-      "cityName": "Crevant",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2024-08-27T10:40:21.628Z",
-      "notes": "sq",
-      "position": {
-        "lat": "46.483975430498",
-        "lng": "1.930170926064077"
-      }
-    },
-    {
-      "id": "9cf9",
-      "cityName": "Crevant",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2024-08-27T10:40:21.628Z",
-      "notes": "sq",
-      "position": {
-        "lat": "46.483975430498",
-        "lng": "1.930170926064077"
-      }
-    },
-    {
-      "id": "17d7",
-      "cityName": "Crevant",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2024-08-27T10:40:21.628Z",
-      "notes": "sq",
-      "position": {
-        "lat": "46.483975430498",
-        "lng": "1.930170926064077"
-      }
-    },
-    {
-      "id": "ea59",
-      "cityName": "Crevant",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2024-08-27T10:40:21.628Z",
-      "notes": "sq",
-      "position": {
-        "lat": "46.483975430498",
-        "lng": "1.930170926064077"
-      }
-    },
-    {
       "id": "8ba1",
       "cityName": "Droux",
       "country": "France",
@@ -178,18 +58,6 @@
       "position": {
         "lat": "46.15021762494637",
         "lng": "1.1401766275610916"
-      }
-    },
-    {
-      "id": "1517",
-      "cityName": "Had Sahary",
-      "country": "Algeria",
-      "emoji": "🇩🇿",
-      "date": "2024-08-27T10:44:24.969Z",
-      "notes": "ok",
-      "position": {
-        "lat": "35.25491313576211",
-        "lng": "3.2493031967915362"
       }
     }
   ]
